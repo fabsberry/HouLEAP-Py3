@@ -1,5 +1,7 @@
 # HouLEAP
 
+> :warning: This fork uses the Leap Motion SDK for python 3. Only tested with **Houdini 19.5**
+
 Easy Leap Motion integration for Houdini
 
 No listening server nor panel needed, only a simple set of nodes to handle all your Leap Motion needs.
@@ -9,8 +11,6 @@ No listening server nor panel needed, only a simple set of nodes to handle all y
 An example hip file is included to get you started.
 
 # Setup
-
-> :warning: The LEAP Motion base library **only works with python 2**, make sure to use this plugin if you haven't installed a python 3 houdini version (now default)!
 
 First, you obviously have to install the Leap Motion drivers.
 
@@ -74,6 +74,9 @@ hou.session.leap.disable()         # disable leap controller interface
 ```
 
 # Updates
+
+### 30/07/2022
+-  LeapSDK python2 replaced by python 3
 
 ### 30/12/2020
 - deprecate DummyHands HDA
