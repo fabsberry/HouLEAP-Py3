@@ -1,6 +1,6 @@
 # HouLEAP
 
-> :warning: This fork uses the Leap Motion SDK for python 3. Only tested with **Houdini 19.5**
+> :warning: This fork uses the Leap Motion SDK for Python 3. Only tested with **Houdini 19.5**
 
 Easy Leap Motion integration for Houdini
 
@@ -76,7 +76,7 @@ hou.session.leap.disable()         # disable leap controller interface
 # Updates
 
 ### 30/07/2022
--  LeapSDK python2 replaced by python 3
+-  Leap Motion SDK Python 2 replaced by SDK for Python 3
 
 ### 30/12/2020
 - deprecate DummyHands HDA
